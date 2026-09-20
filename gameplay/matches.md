@@ -26,6 +26,10 @@ The default hud option is a familiar vanilla like setting with the match timer t
 
 If you prefer to see your opponent's progress at all times, you can switch hud settings to ranked in options and your opponents progress will be set top right with yours top left and the timer in the top center.
 
+There is always a path forward. If you ever feel like you're stuck or theres no pathways remaining, remember that flags are global and persist across rooms. So if a hole looks locked, or it looks like theres no way forward, the key might be something you already triggered elsewhere. backtracking and memory are core skills.
+
+An example: Room 1 is a room in Celestial Resort with one path blocked by the huge mess materials (books, towels, etc). And if after some rooms you come to an area that allows you to clean up that material but has no path forward from there, that would be your sign to backtrack to Room 1 where the path would be unblocked.
+
 _Need to add stuff about chat and commands and room skips and blah_
 
 
