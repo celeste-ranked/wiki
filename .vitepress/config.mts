@@ -6,7 +6,18 @@ export default defineConfig({
     cleanUrls: true,
     lastUpdated: true,
 
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+        ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32.png', sizes: '32x32' }],
+        ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+        ['meta', { property: 'og:site_name', content: 'Celeste Ranked Wiki' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:image', content: 'https://wiki.celesteranked.com/og-image.png' }],
+        ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ],
+
     themeConfig: {
+        logo: '/logo.png',
         nav: [
             { text: 'Install', link: '/installation/install' },
             { text: 'Gameplay', link: '/gameplay/' },
