@@ -24,7 +24,7 @@ Launcher copies your celeste into a separate folder and sets that folder up
 on its own, with its own Everest and its own saves. Your normal celeste isnt affected.
 
 1. Download the launcher from [celesteranked.com/download](https://celesteranked.com/download).
-2. Choose "Create a Ranked INstance"
+2. Choose "Create a Ranked Instance"
 3. Point it at your existing Celeste so it has something to copy.
 4. Pick where the Ranked instance should live. It can't be your real Celeste
    folder, the launcher will refuse.
@@ -45,7 +45,7 @@ The launcher installs the Ranked mod into the modded Celeste you already have.
 No second copy.
 
 1. Download the launcher from [celesteranked.com/download](https://celesteranked.com/download).
-2. Choose "Use me Celeste install". A Steam based Celeste with Everest is detected
+2. Choose "Use my Celeste install". A Steam based Celeste with Everest is detected
    automatically, otherwise pick the folder yourself.
 3. Launch Ranked from the launcher.
 
