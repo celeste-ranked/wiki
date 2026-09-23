@@ -12,6 +12,10 @@ you someone eventually. It just might be further from your rating.
 Once you're matched there's a short warmup while the server generates the match,
 then a countdown. Both players get the exact same rooms in the exact same order.
 
+:::tip Note:
+The current map pool only consists of vanilla maps. Modded maps will be added soon.
+:::
+
 _Room generation logic needs more._
 
 ## During the match

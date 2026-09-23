@@ -4,6 +4,11 @@ Lobbies are unranked and you can join or create them yourselves
 
 Up to 64 players, one or many maps, and you pick the maps instead of the server picking them.
 
+:::tip Note:
+Lobbies in Celeste Ranked are not like collabs. They are only there for you to load and play existing maps.
+It does not offer new maps.
+:::
+
 ## Joining
 
 Public lobbies show up in the browser. Private ones are code only, so the host
