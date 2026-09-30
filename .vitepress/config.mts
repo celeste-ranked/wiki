@@ -1,10 +1,17 @@
 import { defineConfig } from 'vitepress'
 
+const IS_ALPHA = true
+
 export default defineConfig({
     title: 'Celeste Ranked Wiki',
     description: 'Wiki for Celeste Ranked',
     cleanUrls: true,
     lastUpdated: true,
+
+    srcExclude: IS_ALPHA
+        ? ['index.md', 'README.md', 'faq.md', 'contribute.md', 'installation/**', 'gameplay/**']
+        : ['coming-soon.md'],
+    rewrites: IS_ALPHA ? { 'coming-soon.md': 'index.md' } : {},
 
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
@@ -18,13 +25,13 @@ export default defineConfig({
 
     themeConfig: {
         logo: '/logo.png',
-        nav: [
+        nav: IS_ALPHA ? [] : [
             { text: 'Install', link: '/installation/install' },
             { text: 'Gameplay', link: '/gameplay/' },
             { text: 'Contribute', link: '/contribute' },
         ],
 
-        sidebar: {
+        sidebar: IS_ALPHA ? {} : {
             '/gameplay/': [
                 {
                     text: 'Gameplay',
@@ -66,21 +73,21 @@ export default defineConfig({
         },
 
         socialLinks: [
-            { 
-              icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z"/></svg>' }, 
-              link: 'https://celesteranked.com',
-              ariaLabel: 'Back to Homepage'
-            },
-            { icon: 'github', link: 'https://github.com/celeste-ranked/wiki', ariaLabel: 'Wiki Repository'},
+            // { 
+            //   icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7z"/></svg>' }, 
+            //   link: 'https://celesteranked.com',
+            //   ariaLabel: 'Back to Homepage'
+            // },
+            // { icon: 'github', link: 'https://github.com/celeste-ranked/wiki', ariaLabel: 'Wiki Repository'},
             { icon: 'discord', link: 'https://discordapp.com/users/879048612817010799', ariaLabel: 'Contact on Discord' },
-            { icon: 'x', link: 'https://x.com/CelesteRanked?s=20', ariaLabel: "X (Twitter)" },
+            // { icon: 'x', link: 'https://x.com/CelesteRanked?s=20', ariaLabel: "X (Twitter)" },
         ],
 
-        search: {
+        search: IS_ALPHA ? undefined : {
             provider: 'local'
         },
 
-        editLink: {
+        editLink: IS_ALPHA ? undefined : {
             pattern: 'https://github.com/celeste-ranked/wiki/edit/main/:path',
             text: 'Edit this page'
         },
