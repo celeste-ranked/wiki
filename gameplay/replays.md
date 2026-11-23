@@ -1,6 +1,6 @@
 # Replays
 
-Every ranked match and lobby map is recorded, for all players in map, automatically.
+Every ranked match and lobby map (if turned on) is recorded, for all players in map, automatically.
 
 ## Watching
 
@@ -24,9 +24,3 @@ There are more options for ghosts (like offset, time relative or room relative) 
 Replays live on the server for a limited time (currently 14 days) and are then deleted. Match results and times are kept forever, it's only the replay file that expires.
 
 Replays you've downloaded stay on your machine in the `Replays` folder in your game directory, and aren't touched by the server side cleanup. And you can access them easily (even offline) in the Saved Replays page in journal. You can download anyone replays, not just yours and keep it.
-
-## Recording limits
-
-A recording stops after one hour.
-
-_More on whats actually recorded and stuff_

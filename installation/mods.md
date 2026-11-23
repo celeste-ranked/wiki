@@ -1,3 +1,7 @@
+<script setup>
+    import {data as skins} from './skins.data.ts'
+</script>
+
 # Mods and the whitelist
 
 Ranked matches have to be fair, so the Ranked instance only loads mods from an
@@ -14,6 +18,15 @@ everest. Nothing is uninstalled, your `Mods` folder is left alone.
 **Helpers and dependencies.** If an approved mod needs another mod to work, that one is automatically allowed too.
 
 **Skin mods.** Cosmetic mods are approved in bulk, since they don't change how the game plays. A long list is already approved and more get added on request.
+
+::: details Approved cosmetic mods ({{skins.length}})
+<ul v-if="skins">
+    <li v-for="skin in skins" :key="skin.name">
+        <a :href="skin.url" target="_blank" rel="noopener noreferrer">{{skin.name}}</a>
+    </li>
+</ul>
+<p v-else>couldn't load list rn, ask nacho in discord</p>
+:::
 
 **Custom maps.** Allowed in lobbies, not in ranked matches. See below.
 
@@ -39,20 +52,6 @@ mod's files don't match what's published, it's flagged.
 
 ## Getting a mod approved
 
-Contact [@nachogooda](https://discordapp.com/users/879048612817010799) on Discord. Skin mods and other purely
+Contact [@nachogooda](https://discordapp.com/users/879048612817010799) in the [Ranked discord](https://discord.gg/saQmArFG3f). Skin mods and other purely
 cosmetic things are usually fine. Anything that changes movement, physics or
 level layout will not be approved for ranked matches.
-
-Useful to include:
-
-- The mod's exact name as it appears in Everest
-- Its gamebanana link
-- What it changes
-
-## "My mod got turned off"
-
-That's expected if it isn't on the whitelist. It comes back when you leave Ranked.
-
-If an approved mod is being blocked, it's usually the version. The whitelist can
-require a minimum version, so update it and try again. Still stuck, ask in the
-Discord.

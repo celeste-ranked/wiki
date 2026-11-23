@@ -26,7 +26,6 @@ _These are just temp names. Might stay, might not_
 
 ## Placements
 
-New accounts start at 700 Elo with min 5 and max 10 placement matches.
-Placement matches... [add full infos later]
-
-_whatever else_
+New accounts need to play a minimum of 3 and maximum of 7 placement matches to get their elo/rank.
+Placement matches take into account how fast, confident, and consistent you play the map as well as
+how you perform compared to your opponent.

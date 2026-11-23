@@ -16,7 +16,7 @@ then a countdown. Both players get the exact same rooms in the exact same order.
 The current map pool only consists of vanilla maps. Modded maps will be added soon.
 :::
 
-_Room generation logic needs more._
+Ranked Randomizer generation also has changes to the original [Celeste Randomizer Mod](https://gamebanana.com/,tools/6848) especially in the way the difficulty of the room is chosen. The difficulties are also tweaked a lot compared to the original mods configs.
 
 ## During the match
 
@@ -34,8 +34,6 @@ There is always a path forward. If you ever feel like you're stuck or theres no 
 
 An example: Room 1 is a room in Celestial Resort with one path blocked by the huge mess materials (books, towels, etc). And if after some rooms you come to an area that allows you to clean up that material but has no path forward from there, that would be your sign to backtrack to Room 1 where the path would be unblocked.
 
-_Need to add stuff about chat and commands and room skips and blah_
-
 
 ## Disconnecting
 
@@ -45,9 +43,8 @@ Stay gone past the grace period and it's a forfeit.
 
 Reconnection only works as long as your game isn't exited. So an alt+f4 or a force quit is an auto forfeit. Reconnection only works as long as you're disconnected (such as a network drop) but still in game and in match. 
 
-_Can add more things like server disconns and stuff_
+On a server death/disconnect, all matches get voided. (lets pray this doesn't happen)
 
 ## Timeouts
 
-Matches, lobbies (per map in lobby), and replays have a time limit of 1hour. If nobody finishes before time runs out in a. ranked match, its an auto draw. In a lobby, its void.
-
+Matches, lobbies (per map in lobby), and replays have a time limit of 1hour. If nobody finishes before time runs out in a. ranked match, its an auto draw. In a lobby, its resolved with whatever stands, and the lobby continues to next map if there is.
