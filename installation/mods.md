@@ -22,7 +22,7 @@ everest. Nothing is uninstalled, your `Mods` folder is left alone.
 ::: details Approved cosmetic mods ({{skins.length}})
 <ul v-if="skins">
     <li v-for="skin in skins" :key="skin.name">
-        <a :href="skin.url" target="_blank" rel="noopener noreferrer">{{skin.name}}</a>
+        <code>{{skin.name}}</code>
     </li>
 </ul>
 <p v-else>couldn't load list rn, ask nacho in discord</p>

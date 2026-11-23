@@ -9,15 +9,10 @@ export default {
         try {
             const res = await fetch('https://api.celesteranked.com/mods/approved-skins')
             const { data } = await res.json() as { data: Skin[] }
-            return data.map(({ name, url }) => ({
-                name,
-                url: url.replace('/mmdl/', '/mods/')
-            }))
+            return data.map(({ name, url }) => ({name, url}))
         } catch (err) {
             console.warn('[skins.data] couldnt fetch approved skins, building without it', err)
             return []
         }
     }
 }
-
-
