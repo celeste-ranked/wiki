@@ -19,6 +19,6 @@ features:
     link: /gameplay/
     linkText: Learn more
   - title: For Contributors
-    link: /contribute
+    link: /contribute/contribute
     linkText: Learn more
 ---

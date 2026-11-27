@@ -23,7 +23,7 @@ export default defineConfig({
         nav: [
             { text: 'Install', link: '/installation/install' },
             { text: 'Gameplay', link: '/gameplay/' },
-            { text: 'Contribute', link: '/contribute' },
+            { text: 'Contribute', link: '/contribute/contribute' },
         ],
 
         sidebar: {
@@ -61,7 +61,7 @@ export default defineConfig({
                     text: 'Help',
                     items: [
                         { text: 'FAQ', link: '/faq' },
-                        { text: 'Contribute', link: '/contribute' }
+                        { text: 'Contribute', link: '/contribute/contribute' }
                     ]
                 }
             ]
