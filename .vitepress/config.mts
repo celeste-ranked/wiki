@@ -35,7 +35,8 @@ export default defineConfig({
                         { text: 'How matches work', link: '/gameplay/matches' },
                         { text: 'Ranks and Elo', link: '/gameplay/ranks' },
                         { text: 'Lobbies', link: '/gameplay/lobbies' },
-                        { text: 'Replays', link: '/gameplay/replays' }
+                        { text: 'Replays', link: '/gameplay/replays' },
+                        { text: 'Tips and Tricks', link: '/gameplay/tips' }
                     ]
                 }
             ],
