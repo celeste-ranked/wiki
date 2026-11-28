@@ -20,7 +20,7 @@ Collected from the Celeste Ranked Discord, here are a few general tips to make y
 
 Replays are **PARAMOUNT** to your success as a player. By opening up a replay, you can watch your opponent's routing through a room, and even practice rooms you were stuck on! The next few tips will be dedicated to effective replay usage.
 
-- You can open up **any** replays, not just ones from your own matches (within 14 days after the match is played). You can do this by searching up a player's name in the leaderboard (Journal), and going to Matches->(match you want to watch)->Watch Replay
+- You can open up **any** replays, not just ones from your own matches (within 3 days after the match is played). You can do this by searching up a player's name in the leaderboard (Journal), and going to Matches->(match you want to watch)->Watch Replay
 
 - You can practice any room directly from the replay by hitting the specified keybind (default is P). This will teleport you to the nearest spawnpoint from the ghost currently playing the room.
 

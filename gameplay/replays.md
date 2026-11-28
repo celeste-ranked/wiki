@@ -21,6 +21,6 @@ There are more options for ghosts (like offset, time relative or room relative) 
 
 ## How long they're kept
 
-Replays live on the server for a limited time (currently 14 days) and are then deleted. Match results and times are kept forever, it's only the replay file that expires.
+Replays live on the server for a limited time (currently 3 days) and are then deleted. Match results and times are kept forever, it's only the replay file that expires.
 
 Replays you've downloaded stay on your machine in the `Replays` folder in your game directory, and aren't touched by the server side cleanup. And you can access them easily (even offline) in the Saved Replays page in journal. You can download anyone replays, not just yours and keep it.
