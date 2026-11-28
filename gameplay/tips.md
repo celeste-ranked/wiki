@@ -7,7 +7,7 @@ Collected from the Celeste Ranked Discord, here are a few general tips to make y
 
 - Maps will **sometimes force you to backtrack**. This can either be because the main path forward is blocked by clutter blocks (the 3A huge mess blocks), or by a key. If you find a key or clutter switch in a dead-end room, **start going back through rooms until you can use it!**
 
-- Keys can only spawn in their original locations, or in place of berries. They will always have yellow particles around them, even if hidden behind a seeker block or fake wall. Also, because you don't need ot reach safe ground before collecting a key, feel free to death-warp right after you have touched the key!
+- Keys can only spawn in their original locations, or in place of berries. They will always have yellow particles around them, even if hidden behind a seeker block or fake wall. Also, because you don't need to reach safe ground before collecting a key, feel free to death-warp right after you have touched the key!
 
 - Room exits will always have a lightbeam effect emanating from them. Additionally, if a room has 3 different exits/entrances and is larger than a screen, there will be an arrow surrounding madeline pointing towards the correct exit. This even works with backtracking rooms!
 
